@@ -1,6 +1,4 @@
-To compile : write make and run ./OneA, ./OneB, ./OneC, ./OneD respectively for all the 4 parts!!
-
-In this question: 
+Here: 
 1(a) : solving Dining philosphers problem with strict ordering of requests-
 Each chopstick is shared by two philosophers, hence, is a shared resource. This is a race condition
 To prevent this problem we will consider each chopstick as a shared item protected by mutex lock.
@@ -36,16 +34,5 @@ and only 2 functions(main and philosopher) required as we are utilising sem_wait
 Same as 1(a) except we are using 2 saucebowls so rotating them also like chopsticks and locking and unlocking them acc to requirements.
 
 1(d):
-
 Same as 1(b) except we are using 2 saucebowls so rotating them also like chopsticks and locking and unlocking them acc to requirements.
-Resources used:
-https://www.cse.iitb.ac.in/~mythili/os/
-Lecture notes
-https://en.wikipedia.org/wiki/Dining_philosophers_problem
-https://man7.org/linux/man-pages/man3/pthread_mutex_lock.3p.html
-https://man7.org/linux/man-pages/man3/pthread_mutex_destroy.3p.html
-https://www.scaler.com/topics/operating-system/dining-philosophers-problem-in-os/
-https://man7.org/linux/man-pages/man3/sem_init.3.html
-https://man7.org/linux/man-pages/man3/sem_wait.3.html
-https://man7.org/linux/man-pages/man3/pthread_mutex_lock.3p.html
-https://www.cse.iitb.ac.in/~mythili/os/references/LittleBookOfSemaphores.pdf
+

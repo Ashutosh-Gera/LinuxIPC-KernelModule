@@ -1,0 +1,1 @@
+savedcmd_/home/ashu/Documents/linuxIPC-and-kernelModule/CustomKernelModule/Module.symvers :=  scripts/mod/modpost  -a    -N -o /home/ashu/Documents/linuxIPC-and-kernelModule/CustomKernelModule/Module.symvers -n -T /home/ashu/Documents/linuxIPC-and-kernelModule/CustomKernelModule/modules.order -i Module.symvers -e 

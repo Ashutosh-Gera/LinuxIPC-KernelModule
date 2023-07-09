@@ -1,6 +1,6 @@
 To compile:
     sudo make
-and check the functionality!
+
 
 Modules are pieces of code that can be loaded and unloaded into the kernel upon demand. 
 They extend the functionality of the kernel without the need to reboot the system. 
