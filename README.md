@@ -92,6 +92,12 @@ make
 
 > NOTE: Run these programs simultaneously together.
 
+Below are the images for these processes working for reference:
+
+* Shared Memory IPC ![alt text](SharedMemory-IPC.png "Shared Memory")
+* FiFo IPC ![alt text](FiFo-IPC.png "FiFo")
+* UNIX domain Sockets IPC ![alt text](Socket-IPC.png "Socket IPC")
+
 Resources used:
 
 * Beej's guide to UNIX IPC [book]
