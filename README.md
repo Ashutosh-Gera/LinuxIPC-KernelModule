@@ -104,7 +104,7 @@ Resources used:
 * [IBM documentation for sockets](https://www.ibm.com/docs/en/ztpf/1.1.0.15?topic=considerations-unix-domain-sockets)
 * Linux Manpages
 
-### Custom Kernel Module
+## Custom Kernel Module
 
 In this part, I have written my own small kernel module. I have implemented a kernel system call as a module. The task of the system call
 is to read the entries of the process `task_struct` corresponding to any
