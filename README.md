@@ -127,6 +127,7 @@ git clone https://github.com/Ashutosh-Gera/LinuxIPC-KernelModule
 cd <your-path>/CustomKernelModule
 sudo make
 ```
+
 > This compiles this module and generates a .ko (loadable kernel file), among others.
 
 ``` bash
@@ -142,7 +143,6 @@ Resources used:
 * [Linux syscall tracer](https://strace.io/)
 * [Blog - Linux world](https://tuxthink.blogspot.com/2012/07/module-to-find-task-from-its-pid.html)
 * [Stack Overflow :wink:](https://stackoverflow.com/questions/8547332/efficient-way-to-find-task-struct-by-pid)
-
 
 That's it for today! Thank you for coming here. Hope you learnt something today (Do star the repo if you did :wink:)
 
